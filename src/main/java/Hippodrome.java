@@ -10,7 +10,6 @@ import static java.util.Objects.isNull;
 public class Hippodrome {
     private static final Logger logger = LogManager.getLogger(Main.class);
     private final List<Horse> horses;
-
     public Hippodrome(List<Horse> horses) {
         if (isNull(horses)) {
             logger.info("Horses list is null.");
